@@ -52,7 +52,7 @@ class HomeController extends BaseController {
 				//email 'From' field: Get users email add and name
 				$message->from($data['email'] , $data['name']);
 				//email 'To' field: cahnge this to emails that you want to be notified. 
-				$message->to('arthurhanson@gmail.com', 'Art Hanson')->cc('georgebartz@gmail.com')->subject('Inside Car Connection Contact Form');
+				$message->to('ralph@insidecarconnection.com', 'Ralph Pierce')->cc('info@insidecarconnection.com')->subject('Inside Car Connection Contact Form');
 			});
 			Session::flash('message', 'Thank you for your message');
 			return Redirect::to('/');

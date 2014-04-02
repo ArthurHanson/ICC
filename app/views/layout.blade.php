@@ -56,7 +56,7 @@
     </div>
     <div class="row">
       <div class="large-6 columns">
-        <p class="feature-text"><b>Two very simple reasons. TIME & MONEY.</b>If you are in the market for a high demand/low supply vehicle you will have limited choices in terms of color and/or options unless you are willing to wait months for a factory order. You will also have no leverage in negotiating a "deal" because your local dealer will likely have more buyers than vehicles.</p>
+        <p class="feature-text"><b>Two very simple reasons. TIME & MONEY.</b> If you are in the market for a high demand/low supply vehicle you will have limited choices in terms of color and/or options unless you are willing to wait months for a factory order. You will also have no leverage in negotiating a "deal" because your local dealer will likely have more buyers than vehicles.</p>
       </div>
       <div class="large-6 columns">
         <p>However, if you spent countless hours contacting hundreds of dealers, the odds of finding the ideal car in stock go up dramatically.</p>
@@ -86,7 +86,8 @@
         </div>
         <div id="contact-info">
           <h2>Ralph Pierce</h2>
-          <p>(123) 459-4938</p>
+          <p>(484) 639-1505 mobile</p>
+          <p>(855) 559-6924 toll free</p>
           <p>ralph@insidecarconnection.com</p>
         </div>
       </div>
