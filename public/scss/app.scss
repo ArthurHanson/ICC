@@ -1,0 +1,112 @@
+@import "settings";
+@import "../bower_components/foundation/scss/foundation";
+
+$blue: #015688;
+
+// TEXT STYLES
+
+.section-title {
+	color: $blue;
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 900;
+	&.adminpage {
+		text-align: left;
+	}
+}
+p {
+	color: #666;
+	font-size: 1em;
+	font-weight: 300;
+	margin-bottom: 0.5em;
+}
+
+p.feature-text {
+	font-size: 1.25em;
+	color: #333;
+	font-weight: 400;
+}
+
+label {
+	font-size:1.25em;
+}
+
+#header {
+	background: url(../img/icc-header.jpg) 50% 0 no-repeat;
+	min-height: 650px;
+	height: 650px;
+	width: 100%;
+	background-size: 1486px 650px;
+	position: relative;
+	background-size:cover;
+}
+
+#logo {
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -100px;
+	background: rgba(255,255,255,0.7);
+	padding: 2em;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#why-icc {
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #444;
+	padding: 2.5em 0em;
+}
+
+#cars {
+	background: -webkit-linear-gradient(#ccc, #fff); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ccc, #fff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ccc, #fff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ccc, #fff); /* Standard syntax */
+	padding: 2em 0;
+
+}
+
+.row .car-listing {
+	background: rgba(255,255,255,0.7);
+	border: 1px solid #999;
+	margin: 0.5em 0;
+	padding: 1.75em 1em;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	p {
+		margin-bottom: 0;
+	}
+}
+
+#edit-entry-btns {
+	margin-top: 1em;
+	border-top: 1px solid #ccc;
+	padding-top: 0.5em;
+}
+
+#footer {
+	background: $blue;
+	padding: 2em 0;
+
+	p, h1, h2, label {
+		color: #fff;
+	}
+	.section-title {
+		color: #fff;
+		text-align: left;
+	}
+
+	.large-6.columns:last-child {
+		border-left: 1px solid rgba(0,0,0,0.25);
+	}
+	#contact-info {
+		p {
+			font-size: 1.5em;
+		}
+	}
+}
+
+
+
