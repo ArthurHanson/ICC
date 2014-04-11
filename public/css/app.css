@@ -5309,7 +5309,11 @@ label {
 #tagline {
   text-align: center;
   font-style: italic;
-  font-size: 1.25em; }
+  font-size: 1.5em;
+  color: #222;
+  line-height: 1.25em;
+  margin-bottom: 0px;
+  margin-top: 0.5em; }
 
 #why-icc {
   border-top: 1px solid #444;
@@ -5350,7 +5354,8 @@ label {
     font-size: 2em; }
   #footer .section-title {
     color: #fff;
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 0.5em; }
   #footer .large-6.columns:last-child {
     border-left: 1px solid rgba(255, 255, 255, 0.75); }
     @media only screen and (max-width: 40em) {
