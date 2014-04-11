@@ -10,3 +10,5 @@ artisan
 *.DS_Store
 /public/bower_components/*
 /public/node_modules/*
+*.sublime-project
+*.sublime-workspace
