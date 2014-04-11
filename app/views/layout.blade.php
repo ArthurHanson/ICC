@@ -92,7 +92,7 @@
           <p>info@insidecarconnection.com</p>
         </div>
         <div class="contact-info">
-          <h4>Nationwide delivery.</h4>
+          <h4>Nationwide delivery available.</h4>
         </div>
       </div>
       <div class="large-6 columns">
