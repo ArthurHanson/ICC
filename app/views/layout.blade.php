@@ -37,7 +37,7 @@
   <body>
   <header id="header">
     <div class="row">
-      <div class="small-10 medium-6 large-6 small-centered" id="logo">
+      <div class="small-10 medium-6 large-6 small-centered columns" id="logo">
         <p><img src="img/inside-car-connection.svg" alt="Inside Car Connection" /></p>
         <p id="tagline">The best way to get the best deals on today's most desirable cars.</p>
       </div>
@@ -55,16 +55,12 @@
         <h1 class="section-title">Why Inside Car Connection?</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="large-6 columns">
+    <div class="row" id="intro-text">
+      <div class="large-11 columns small-centered text-center">
         <p class=""><b>Two reasons. TIME &amp; MONEY.</b></p>
         <p>Are you in the market for a high demand/low supply vehicle? If so, you will have limited choices in terms of color and options, unless you are willing to wait months for a factory order. You will also have NO leverage in negotiating a "deal" because your local dealer will have more buyers than vehicles.</p>
         
         <p>If you spent countless hours contacting hundreds of dealers, the odds of finding the ideal car would go up dramatically. If you had decades of experience in auto sales, working every position from sales associate to General Sales Manager and acquiring hundreds of dealer contacts along the way, the odds of finding a "deal" would also go up dramatically.</p>
-
-      </div>
-      <div class="large-6 columns">
-        <p class="show-for-large-up">&nbsp;</p>
 
         <p>ICC has already done the heavy lifting for you and we have the experience needed to find the perfect car at a great price. Take advantage of our tireless effort and vast expertise.</p>
         <p>ICC will save you time. ICC will save you money.</p>
@@ -90,10 +86,13 @@
             <h2 class="section-title">Contact Information</h2>
           </div>
         </div>
-        <div id="contact-info">
+        <div class="contact-info">
           <h2>Inside Car Connection</h2>
           <p>(855) 559-6924 toll free</p>
           <p>info@insidecarconnection.com</p>
+        </div>
+        <div class="contact-info">
+          <h4>Nationwide delivery.</h4>
         </div>
       </div>
       <div class="large-6 columns">
