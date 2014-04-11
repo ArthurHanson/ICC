@@ -10,10 +10,10 @@
 
 	@foreach ($cars as $car)
 	    <div class="row car-listing">
-	        <div class="large-4 columns small-3">
+	        <div class="small-6 medium-4 large-4 columns ">
 	          <img src="/uploads/{{$car->image}}" />
 	        </div>
-	        <div class="large-8 columns">
+	        <div class="small-12 medium-8 large-8 columns">
 	          <h2 class="car-title">{{$car->car_type}}</h2>
 	          <p>Color: {{$car->color}}</p>
 	          @if ($car->price)

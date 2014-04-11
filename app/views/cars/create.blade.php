@@ -30,7 +30,7 @@
 	{{  Form::text('color'); }}
 	</div>
 	<div>
-	{{  Form::label('price', 'Car Price description'); }}
+	{{  Form::label('price', 'Car Price Description'); }}
 	{{  Form::text('price'); }}
 	</div>
 	<div>

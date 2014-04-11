@@ -32,7 +32,7 @@
             </div>
             <div class="row">
               <div class="large-12 columns">
-                {{  Form::label('message', 'How can I help?'); }}
+                {{  Form::label('message', 'Please Tell Us What Vehicle You Are Looking For'); }}
                 {{  Form::textarea('message'); }}
               </div>
             </div>

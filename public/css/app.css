@@ -6391,6 +6391,12 @@ label {
   padding: 2em;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
 
+#tagline {
+  text-align: center;
+  font-weight: 300;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 10px; }
+
 #why-icc {
   border-top: 1px solid #444;
   border-bottom: 1px solid #444;
@@ -6430,6 +6436,6 @@ label {
     color: #fff;
     text-align: left; }
   #footer .large-6.columns:last-child {
-    border-left: 1px solid rgba(0, 0, 0, 0.25); }
+    border-left: 1px solid rgba(255, 255, 255, 0.75); }
   #footer #contact-info p {
     font-size: 1.5em; }
